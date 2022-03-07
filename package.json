@@ -1,6 +1,6 @@
 {
   "name": "random-names-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random de mensajes",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,15 @@
   "author": "German Pinilla <german@german.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true 
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpinilladev/random-names-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gpinilladev/random-names-node/issues"
+  },
+  "homepage": "https://github.com/gpinilladev/random-names-node#readme"
 }
